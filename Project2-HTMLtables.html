@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project2 - Table</title>
+
+    <style>
+
+        body {
+            background-color: #f2f6ff;
+        }
+
+        table {
+            margin-left:  auto;
+            margin-right: auto;
+            width: 1200px;
+            height: 800px;
+            margin-top: 16px;
+        }
+
+        th {
+            display: table-cell;
+            vertical-align: inherit;
+            font-weight: bold;
+            text-align: left;
+            background-color: lightblue;
+        }
+
+        table,td,tr,th {
+            border: 2px black solid;
+            border-collapse: collapse;
+            font-size: 24px;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+<table>
+
+    <th colspan="4"><strong>Invoice #12345ABC</strong></th>
+    <th colspan="2"><strong>18 Jul 2019</strong></th>
+    <tr>
+        <td colspan="3">
+            <strong>Pay To:</strong> <br>
+            The Tech Park<br>
+            123 Willow Street<br>
+            Boulevard,LA - 567892
+        </td>
+        <td colspan="3">
+            <strong>Customer:</strong> <br>
+            John Lark<br>
+            Dummy Apartments<br>
+            Boulevard,LA - 567892
+        </td>
+    </tr>
+    <th colspan="2">Name/Description</th>
+    <th colspan="1">Qty:</th>
+    <th colspan="1">MRP</th>
+    <th colspan="2">Amount</th>
+    <tr>
+        <td colspan="2">
+            Biryani
+        </td>
+        <td colspan="1">
+            3
+        </td>
+        <td colspan="1">
+            400
+        </td>
+        <td colspan="2">
+            1200
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            Chocolate Shake
+        </td>
+        <td colspan="1">
+            3
+        </td>
+        <td colspan="1">
+            200
+        </td>
+        <td colspan="2">
+            600
+        </td>
+    </tr>
+    <tr>
+        <th colspan="4">Subtotal:</th>
+        <td colspan="2">
+            Chocolate Shake
+        </td>
+    </tr>
+    <tr>
+        <th colspan="3">Tax</th>
+        <td colspan="1">
+            10%
+        </td>
+        <td colspan="2">
+            180
+        </td>
+    </tr>
+    <tr>
+        <th colspan="4">Grand Total:</th>
+        <td colspan="2">
+            RS 1620
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
